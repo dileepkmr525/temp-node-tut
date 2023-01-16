@@ -1,0 +1,7 @@
+const names=require('./names') 
+const utilities=require('./utils') 
+const data=require('./alternative-flavor') 
+require('./mind-grenade')
+utilities('susan')
+ utilities(names.john)
+ utilities(names.peter)
